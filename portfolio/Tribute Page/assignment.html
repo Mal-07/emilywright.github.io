@@ -1,0 +1,53 @@
+<DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <h2> Sunny Daze Seed Shoppe</h2>
+      <img id="header-img" src="https://th.bing.com/th/id/OIP.gdNVfcnAjQURwqcuGIDHAQHaE8?rs=1&pid=ImgDetMain">
+      <nav id="nav-bar">
+        <a href="#seeds" class="nav-link">seeds</a>
+        <a href="#tips" class="nav-link">tips</a>
+        <a href="#feedback" class="nav-link"> Feedback</a>
+      </nav>
+    </header>
+    
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/A_j3E2TkH7U?si=ZYqvhi9814fPKTWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    <h3 id="seeds"> Seeds</h3>
+    <h3 id="tips"> Tips</h3>
+    <h3 id="feedback">Feedback</h3>
+    
+    <p>We value your feedback! Please share your thoughts with us.</p>
+    <form  id="form" action="https://www.freecodecamp.com/email-submit" method="post" enctype="text/plain"> 
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="abc@efg.com" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating">
+            <option value="5">5 stars (Excellent)</option>
+            <option value="4">4 stars (Good)</option>
+            <option value="3">3 stars (Average)</option>
+            <option value="2">2 stars (Below average)</option>
+            <option value="1">1 star (Poor)</option>
+        </select>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <input type="submit" id="submit">Submit</button>
+    </form>
+
+
+      
+  </body>
+
+  </html>
